@@ -2,10 +2,11 @@
   "name": "file-coverage",
   "version": "0.1.0",
   "description": "A coverage tool when comparing two folders",
-  "main": "lib/index",
-  "bin": "lib/cli",
+  "main": "lib/index.js",
+  "bin": "lib/cli.js",
   "files": [
-    "lib"
+    "lib",
+    "modules"
   ],
   "scripts": {
     "build": "rimraf lib && babel ./modules -d lib",

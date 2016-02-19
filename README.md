@@ -51,7 +51,7 @@ The data contains the **params** and **results** entries. The **params** are tho
 
 The **.coverage** file parameters:
 
-* **pattern** (*String* "\*\*/\*"): the pattern of the files to find (see [glob supports]())
+* **pattern** (*String* "\*\*/\*"): the pattern of the files to find (see [glob supports](https://github.com/isaacs/node-glob))
 * **source** (required *String*): the directory to find in
 * **target** (required *String*): the directory to compare
 * **target_prefix** (*String* ""): the prefix of the target file name
