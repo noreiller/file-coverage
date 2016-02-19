@@ -1,0 +1,8 @@
+{
+  "source": "modules",
+  "target": "tests",
+  "target_suffix": "-test",
+  "excluded_files": [
+    "modules/cli.js"
+  ]
+}

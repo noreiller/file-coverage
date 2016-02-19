@@ -1,0 +1,5 @@
+instrumentation:
+    root: modules
+
+reporting:
+    dir: './tests-coverage'
